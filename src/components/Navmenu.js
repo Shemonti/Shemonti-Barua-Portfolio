@@ -92,23 +92,26 @@ export default function Navmenu() {
   return (
     <>
       <NavStyles>
+        {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events */}
         <div
           className="mobile-menu-icon"
           onClick={() => setShowNav(!showNav)}
           role="button"
-          onKeyDown={() => setShowNav(!showNav)}
           tabIndex={0}
+          aria-label="Mobile Menu"
         >
           <MdMenu />
         </div>
         <div>
           <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
+            {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
             <div
               className="closeNavIcon"
               onClick={() => setShowNav(!showNav)}
               role="button"
               onKeyDown={() => setShowNav(!showNav)}
               tabIndex={0}
+              aria-label=""
             >
               <MdClose />
             </div>

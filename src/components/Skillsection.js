@@ -123,6 +123,7 @@ export default function Skillsection() {
         </div>
 
         <div className="arrows">
+          {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
           <div
             className="prev"
             onClick={handlePrev}
@@ -132,6 +133,7 @@ export default function Skillsection() {
           >
             <MdArrowBack />
           </div>
+          {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
           <div
             className="next"
             onClick={handleNext}
