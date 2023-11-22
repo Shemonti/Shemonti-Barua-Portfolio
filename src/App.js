@@ -8,33 +8,35 @@ import Skills from './pages/Skills';
 import Achievements from './pages/Achievements';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import SmoothScrollbar from './components/Smoothscroll';
 
 export default function App() {
   return (
     <>
       <Router>
         <Navmenu />
-
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/achievements">
-            <Achievements />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <SmoothScrollbar>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/skills">
+              <Skills />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/achievements">
+              <Achievements />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </SmoothScrollbar>
         <Footer />
       </Router>
     </>
