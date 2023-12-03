@@ -44,7 +44,7 @@ const achievements = {
     {
       title: 'Data Visualization Using Python',
       desc: 'An online course  where several techniques of data visualization has been taught with python programming.',
-      date: 'July,2020',
+      date: 'November,2020',
       link: 'https://drive.google.com/file/d/13fIdEGmTSOAubKffmJ5NPtzm-LzroHcj/view?usp=drive_link',
     },
     {
