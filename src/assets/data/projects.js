@@ -9,6 +9,7 @@ import DDscnetImg from '../images/brest1.jpg';
 import EamlpImg from '../images/brest2.jpg';
 import SnapImg1 from '../images/snp.png';
 import FdImg from '../images/fd.jpg';
+import Iotimg from '../images/iot.jpg';
 
 const projects = [
   {
@@ -87,6 +88,13 @@ const projects = [
     desc: 'This is the Backend part of Mern stack Project which is done by using MongoDB and NodeJs.',
     img: SnapImg1,
     link: 'https://github.com/Shemonti/Snapbook_server',
+  },
+  {
+    id: uuidv4(),
+    name: 'Health Monitoring System',
+    desc: 'An IOT-based project using Arduino code, Wi-Fi and heart-rate biosensor module.',
+    img: Iotimg,
+    link: 'https://github.com/Shemonti/IOT_based_Health_Monitoring_System',
   },
 ];
 
