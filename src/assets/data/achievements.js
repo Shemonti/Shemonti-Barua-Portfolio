@@ -2,7 +2,7 @@ const achievements = {
   Conferences_and_Training: [
     {
       title: 'IEEE Computer Society Bangladesh Chapter Summer Symposium',
-      desc: 'Parcipated in that conference Virtually and got a chance to share my two research ideas with them.',
+      desc: 'Parcipated in that conference virtually and got a chance to share my two research ideas with them.',
       date: '10th June,2023',
       link: 'https://drive.google.com/file/d/1S4x0sxP12FVhjfEXgbRcOSJD2QpQ-dn-/view?usp=drive_link',
     },
