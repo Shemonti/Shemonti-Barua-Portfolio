@@ -104,11 +104,7 @@ export default function About() {
               {/* <h2 className="about__heading">A Web developer</h2> */}
               <div className="about__info">
                 <PText>
-                  I am from Chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, I love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
-                  <br /> <br />
+               
                   I am deeply passionate about Machine Learning, Deep Learning,
                   and Artificial Intelligence. I aspire to pursue advanced
                   studies in this field to expand my knowledge and make
