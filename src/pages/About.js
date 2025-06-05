@@ -105,7 +105,7 @@ export default function About() {
               <div className="about__info">
                 <PText>
                   I am from Chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
+                  nature. Since my childhood, I love art and design. I always
                   try to design stuff with my unique point of view. I also love
                   to create things that can be usefull to others.
                   <br /> <br />
