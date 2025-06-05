@@ -9,7 +9,7 @@ const achievements = {
 
     {
       title:
-        'International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM)',
+        'International Conference On Next-Generation Computing, IoT and Machine Learning (NCIM)',
       desc: 'My research paper has been published on that conferenc.Moreover,I got an opportunity to present my research paper on that conference.',
       date: '15th June,2023',
       link: 'https://drive.google.com/file/d/1YSNlLUJjxN0g4SsT1d-LKx-PmORVAf-l/view?usp=drive_link',
