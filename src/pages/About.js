@@ -104,7 +104,6 @@ export default function About() {
               {/* <h2 className="about__heading">A Web developer</h2> */}
               <div className="about__info">
                 <PText>
-               
                   I am deeply passionate about Machine Learning, Deep Learning,
                   and Artificial Intelligence. I aspire to pursue advanced
                   studies in this field to expand my knowledge and make
