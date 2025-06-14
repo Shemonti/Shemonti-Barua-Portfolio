@@ -156,7 +156,7 @@ export default function Herosection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-          <PText color="#00cc99">
+          <PText>
             I am a Machine learning enthusiast. I have done several projects on
             various ML topics. In addition, I love to design and make new web
             experiences for the people.
