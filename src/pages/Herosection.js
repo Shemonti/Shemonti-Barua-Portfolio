@@ -156,11 +156,12 @@ export default function Herosection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am a Machine learning enthusiast.I have done several projects on
-              various Ml topics. In addition, I love to design and make new web
-              experiences for the people.
-            </PText>
+          <PText color="#00cc99">
+            I am a Machine learning enthusiast. I have done several projects on
+            various ML topics. In addition, I love to design and make new web
+            experiences for the people.
+          </PText>
+
             <Button btnText="see my works" btnLink="/projects" />
           </div>
           <div className="hero__social">
